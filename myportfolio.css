@@ -59,7 +59,7 @@ header{
 	outline: none;
 }
 .fixed-top{
-	margin: 0 10% 0 10%;
+	margin: ;
 }
 .navbar-collapse{
 	background-color: transparent;
@@ -84,22 +84,23 @@ header{
 	text-align: center; 
 	font-weight: bold;
 	animation: move 5s infinite;
-	border-bottom: 1px solid yellow;
+	text-decoration: underline;
+	text-decoration-color: yellow; 
 	padding: 0 0 4px;
 	color:#DC143C;
 	text-shadow: 2px 2px 5px 2px red;
 
 }
 #first{
-	margin-top: 12%;
-	background: rgb(0,0,0,0.8);
+	margin-top: 1%;
+	background: rgb(0,0,0,0.7);
 	padding:10%;
 	text-align:left;
 	width: 100%;
 }
 #second{
 	margin-top: 10%;
-	background: rgb(0,0,0,0.8);
+	background: rgb(0,0,0,0.7);
 	padding:5% 6% 5% 6%;
 	text-align:center;
 	width: 100%;
@@ -146,7 +147,7 @@ header{
 }
 #am{
 	margin-top: 1%;
-	font-size: 150%;
+	font-size: 1.2rem;
 	color: white;
 	float: right;
 	font-family: sans-serif;
@@ -280,11 +281,14 @@ footer .social-media{
 	border-top: 2px solid grey;
 }
 @media screen and (max-width: 988px){
+	body{
+		object-fit: cover;
+	}
 	.nav-item{
 		margin-top: 5%;
 	}
 	#home{
-		font-size: 150%;
+		font-size: 100%;
 		font-weight: bold;
 	}
 	.navbar-collapse{
@@ -297,12 +301,47 @@ footer .social-media{
 	transition: .2s ease-in-out ;
 	}
 	#am{
-	font-size: 120%;
+	font-size: 100%;
 	text-align: left;
 	}
-	#edu{
-	font-size: 120%;
+	#am1{
+		font-size: 100%;
 	}
+	#edu{
+	font-size: 100%;
+	}
+	#head{
+		font-size: 50px;
+	}
+	.fa{
+	  padding: 3px;
+	  font-size: 5px;
+	  width: 45px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 0;
+	  border-radius: 20%;
+	}
+	#about{
+		font-size: 25px;
+	}
+	.counter{
+		width: 165px;
+		height: 165px;
+	}
+	.card .card-body a{
+		width: 150px;
+	}
+	footer h4{
+		font-size: 15px;
+	}
+	#bottom{
+		font-size: 7px;
+	}
+	#first{
+		margin-top: 12%;
+	}
+	
 }
 @media screen and (max-width: 1400px){
 	.fixed-top{
